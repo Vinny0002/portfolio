@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Irish+Grover&family=Lobster&family=Quintessential&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    /* background-image:url('1308942.png'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sidebar{
+    background-color: rgb(175, 165, 165);
+    /* width: 245px; */
+    position: absolute;
+    font-family: 'Quintessential', cursive;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 48px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 28px 0px;
+}
+.sidebar nav li a{
+     text-decoration: none;
+     color: black;
+}
+.main{
+    /* background-color: rgb(255, 255, 0); */
+    width: 87vw;
+}
+.container{
+    display: flex;
+}
+.info_container{
+    /* background-color: rgb(97, 236, 97); */
+    height: 55vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 136px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devInfo{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{font-size: 76px;
+     }
+
+.name{font-size: 60px;
+font-weight: bold;
+font-family: 'Quintessential', cursive;}
+
+.about{font-size: 40px;}
+.moreAbout{
+    font-size: 20px;
+    font-family: 'Quintessential', cursive;
+}
+
+.btn{
+    margin: 17px 0px;
+    padding: 10px 12px;
+    border-radius: 21px;
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.btn-sm{
+    margin: 6px 0px;
+    padding: 7px 4px;
+    border-radius: 15px;
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.devPic img{
+    height: 55vh;
+}
+.contactform{
+    font-family: 'Source Code Pro', monospace;
+    padding: 69px 69px;
+}
+.contactform h1{
+    font-family: 'Quintessential', cursive;
+     padding: 9px 0px;
+
+}
+.contactform form div{
+    padding: 8px 0px;
+    width: 17vw;
+    border-radius: 6px;
+    padding: 4px;
+
+}
+.form-control{
+    width: 17vw;
+    border-radius: 6px;
+    padding: 1px;
+}
+#form-check {
+    flex-direction: row;
+}
+.form-check label{
+    padding: 0px 19px;
+    
+}
+.form-check-input{
+    width: 15px;
+}
+ 
+#emailHelp{
+    font-size: 9px;
+    color: green;
+    /* padding: 2px 5px; */
+    margin: 1px 8px;
+}    
+ 
+.intro h2{
+    font-family: 'Source Code Pro', monospace;
+    margin: 20px;
+
+}
+.intro p{
+    font-family: 'Roboto', sans-serif;
+    margin:20px;
+}
+.skill_container{
+    padding: 12px;
+}
+.skill{
+    width: 22vw;
+    height: 9px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 8px;
+
+}
+.skill_item{
+    display: flex;
+    align-items: center;
+}
+.hundred{
+    width: 32vw;
+    background-color: green;
+}
+.fifty{
+    width: 16vw;
+    background-color: blue;
+}
+.t5{
+    width: 8vw;
+    background-color: red;
+}
+.sidebargo{
+    transform: translate(-443px,0px);  
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+    top: 10px;
+
+}
+.cross{
+    margin-left: 150px;
+     
+}
+.intro{
+    margin: 30px 94px;
+}
+@media (max-width: 1100px) {
+    * {
+      /* background-color: #87ceeb; */
+    }
+    /* .sidebar{
+        transform: translate(-443px,0px);  
+        position: absolute;
+    } */
+    .intro,.contactform{
+        margin: 50px;
+        
+    }
+  }
+  @media (max-width: 500px){
+      .intro{
+
+      }
+  }
+  
